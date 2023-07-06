@@ -21,5 +21,8 @@ public class RulesOf6005Test {
                 RulesOf6005.mayUseCodeInAssignment(false, true, false, false, false));
         assertTrue("Expected true: self-written required code",
                 RulesOf6005.mayUseCodeInAssignment(true, false, true, true, true));
+        assertFalse("Expected false: implementation required",
+        		RulesOf6005.mayUseCodeInAssignment(true, false, true, false, false));
+    
     }
 }
