@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="zach-16Z90Q-K-AAC7U1" id="0" name="QuadraticTest" package="warmup" skipped="0" tests="8" time="0.069" timestamp="2023-07-10T02:12:16">
+      <properties>
+          <property name="ant.library.dir" value="/home/zach/eclipse/eclipse/plugins/org.apache.ant_1.10.12.v20211102-1452/lib" />
+
+          <property name="java.specification.version" value="17" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="which.tests.ran" value="BETA" />
+
+          <property name="java.class.path" value="/home/zach/software_construction/ps1/lib/junit-4.12.jar:/home/zach/software_construction/ps1/lib/hamcrest-core-1.3.jar:/home/zach/software_construction/ps1/.grader/bin-student:/home/zach/eclipse/eclipse/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-launcher.jar:/home/zach/eclipse/eclipse/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant.jar:/home/zach/eclipse/eclipse/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-junit.jar:/home/zach/eclipse/eclipse/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant-junit4.jar" />
+
+          <property name="project.name" value="ps1-warmup" />
+
+          <property name="java.vm.vendor" value="Eclipse Adoptium" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.vendor.url" value="https://adoptium.net/" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="java.vm.specification.version" value="17" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="US" />
+
+          <property name="sun.boot.library.path" value="/home/zach/eclipse/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.7.v20230425-1502/jre/lib" />
+
+          <property name="problem.set" value="ps1" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner warmup.QuadraticTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/zach/software_construction/ps1/.grader/TEST-warmup.QuadraticTest.xml crashfile=/home/zach/software_construction/ps1/.grader/junitvmwatcher13810605728924088716.properties propsfile=/home/zach/software_construction/ps1/.grader/junit11876117747762283224.properties" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="/home/zach" />
+
+          <property name="user.language" value="en" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.version.date" value="2023-04-18" />
+
+          <property name="java.home" value="/home/zach/eclipse/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.7.v20230425-1502/jre" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="basedir" value="/home/zach/software_construction/ps1" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="ant.java.version" value="17" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="final.grader.jar" value="ps1-final-grader.jar" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.runtime.version" value="17.0.7+7" />
+
+          <property name="java.security.manager" value="allow" />
+
+          <property name="user.name" value="zach" />
+
+          <property name="ant.file" value="/home/zach/software_construction/ps1/grader.xml" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="os.version" value="5.15.0-60-generic" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="java.vendor.version" value="Temurin-17.0.7+7" />
+
+          <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
+
+          <property name="ant.core.lib" value="/home/zach/eclipse/eclipse/plugins/org.apache.ant_1.10.12.v20211102-1452/lib/ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.version" value="17.0.7" />
+
+          <property name="user.dir" value="/home/zach/software_construction/ps1" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="/home/zach/eclipse/eclipse/plugins/org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="native.encoding" value="UTF-8" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib" />
+
+          <property name="java.vendor" value="Eclipse Adoptium" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.vm.version" value="17.0.7+7" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="java.class.version" value="61.0" />
+
+          <property name="ant.project.default-target" value="all" />
+
+      </properties>
+
+      <testcase classname="warmup.QuadraticTest" name="testOneRoot" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testAssertionsEnabled" time="0.001" />
+
+      <testcase classname="warmup.QuadraticTest" name="testOneZeroRoot" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testPositiveRoots" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testBothZeroRoots" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testOppositeSignRoots" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testNegativeRoots" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testLargeRoots" time="0.0" />
+
+      <system-out><![CDATA[676
+0
+160
+0
+6468
+64
+489934592
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
